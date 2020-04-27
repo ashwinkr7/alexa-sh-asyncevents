@@ -1,0 +1,125 @@
+{
+    "event": {
+        "header": {
+            "namespace": "Alexa.Discovery",
+            "name": "AddOrUpdateReport",
+            "payloadVersion": "3",
+            "messageId": null
+        },
+        "payload": {
+            "endpoints": [
+                {
+                    "capabilities": [
+                        {
+                            "interface": "Alexa.PowerController",
+                            "properties": {
+                                "proactivelyReported": true,
+                                "retrievable": true,
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ]
+                            },
+                            "type": "AlexaInterface",
+                            "version": "3"
+                        },
+                        {
+                            "inputs": [
+                                {
+                                    "name": "HDMI 1"
+                                },
+                                {
+                                    "name": "HDMI 2"
+                                },
+                                {
+                                    "name": "HDMI 3"
+                                },
+                                {
+                                    "name": "HDMI 4"
+                                }
+                            ],
+                            "interface": "Alexa.InputController",
+                            "properties": {
+                                "proactivelyReported": true,
+                                "retrievable": true,
+                                "supported": [
+                                    {
+                                        "name": "input"
+                                    }
+                                ]
+                            },
+                            "type": "AlexaInterface",
+                            "version": "3"
+                        },
+                        {
+                            "interface": "Alexa.Speaker",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "volume"
+                                    },
+                                    {
+                                        "name": "muted"
+                                    }
+                                ]
+                            },
+                            "type": "AlexaInterface",
+                            "version": "3"
+                        },
+                        {
+                            "interface": "Alexa.ChannelController",
+                            "type": "AlexaInterface",
+                            "version": "3"
+                        },
+                        {
+                            "interface": "Alexa.PlaybackController",
+                            "supportedOperations": [
+                                "Play",
+                                "Pause",
+                                "Stop",
+                                "FastForward",
+                                "Rewind",
+                                "Next",
+                                "Previous"
+                            ],
+                            "type": "AlexaInterface",
+                            "version": "3"
+                        },
+                        {
+                            "interface": "Alexa.EndpointHealth",
+                            "properties": {
+                                "proactivelyReported": true,
+                                "retrievable": true,
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ]
+                            },
+                            "type": "AlexaInterface",
+                            "version": "3"
+                        },
+                        {
+                            "interface": "Alexa",
+                            "type": "AlexaInterface",
+                            "version": "3"
+                        }
+                    ],
+                    "cookie": {},
+                    "description": "Smart TV in Bedroom",
+                    "displayCategories": [
+                        "TV"
+                    ],
+                    "endpointId": "brandotv-001",
+                    "friendlyName": "Bedroom TV",
+                    "manufacturerName": "Brando"
+                }
+            ],
+            "scope": {
+                "type": "BearerToken",
+                "token": null
+            }
+        }
+    }
+}

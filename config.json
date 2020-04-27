@@ -1,0 +1,9 @@
+{
+    "lwaProfileEndpoint": "https://api.amazon.com/user/profile",
+    "lwaTokenEndpoint": "https://api.amazon.com/auth/o2/token",
+    "alexaInboundGatewayEndpoint": "https://api.amazonalexa.com/v3/events",
+    "client_id": "",
+    "client_secret": "",
+    "refresh_token": null,
+    "access_token": null
+}

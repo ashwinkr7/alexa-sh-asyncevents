@@ -1,0 +1,23 @@
+{
+    "event": {
+        "header": {
+            "namespace": "Alexa",
+            "name": "Response",
+            "messageId": null,
+            "correlationToken": null,
+            "payloadVersion": "3"
+        },
+        "endpoint": {
+            "scope": {
+                "type": "BearerToken",
+                "token": null
+            },
+            "endpointId": "brandotv-001"
+        },
+        "payload": {}
+    },
+    "context": {
+        "properties": [
+        ]
+    }
+}
